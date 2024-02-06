@@ -48,14 +48,12 @@ section#box-1{
     background: black url(imagens/background001.jpg) center center fixed;
     background-size: cover;
     width: 100%;
-    background-position: right center;
 }
 
 section#box-2{
     background: black url(imagens/background002.jpg) center center fixed;
     background-size: cover;
     width: 100%;
-    background-position: right center;
     background-size: 100% auto;
 }
 
