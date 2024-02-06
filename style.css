@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header > h1{
+    padding-top: 10px;
+    font-size: 4em;
+    font-variant: small-caps;
+    font-size: 6vw;
+}
+
+header > p {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{ 
+    white-space: pre-line; 
+    font-size: 2em;
+}
+
+section{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 30px;
+    line-height: 1.5em;
+    font-size: 4.5vh;
+}
+
+section#box-1{
+    background: black url(imagens/background001.jpg) center center fixed;
+    background-size: cover;
+    width: 100%;
+    background-position: right center;
+}
+
+section#box-2{
+    background: black url(imagens/background002.jpg) center center fixed;
+    background-size: cover;
+    width: 100%;
+    background-position: right center;
+    background-size: 100% auto;
+}
+
+section#box-1, #box-2{
+    padding: 3vh 30px 3vh;
+    width: 100vw;
+    color: white;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.397);
+}
+
+section#box-1 > p, section#box-2 > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.548);
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+    margin-bottom: 5vh;
+    padding-bottom: 8vh;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
