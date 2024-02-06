@@ -62,6 +62,7 @@ section#box-1, #box-2{
     width: 100vw;
     color: white;
     box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.397);
+    overflow-x: hidden;
 }
 
 section#box-1 > p, section#box-2 > p{
